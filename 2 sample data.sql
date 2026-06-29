@@ -5,3 +5,6 @@ union select 'nose', 1
 union select 'mouth', 2
 union select 'teeth', 32
 union select 'toungue', 1
+
+insert body(bodypart, num)
+select 'brain', 1
